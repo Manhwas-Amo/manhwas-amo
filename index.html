@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manhwas Amo - Lisez vos manhwas préférés</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Police Google pour une meilleure typographie -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Icônes Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logo du site -->
+            <a href="index.html" class="logo">Manhwas Amo</a>
+            
+            <!-- Menu de navigation -->
+            <ul class="nav-menu">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#manhwas">Manhwas</a></li>
+                <li><a href="#popular">Populaires</a></li>
+                <li><a href="#new">Nouveautés</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <!-- Barre de recherche -->
+            <div class="search-box">
+                <input type="text" placeholder="Rechercher un manhwa...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+            <!-- Boutons de connexion et d'inscription -->
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Connexion</a>
+                <a href="#" class="register-btn">Inscription</a>
+            </div>
+            
+            <!-- Sélecteur de langue -->
+            <div class="language-selector">
+                <select id="language">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bannière publicitaire -->
+    <div class="ad-banner">
+        <p>Publicité</p>
+        <img src="https://via.placeholder.com/728x90" alt="Publicité">
+    </div>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+        <!-- Section Hero -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Lisez vos manhwas préférés gratuitement</h1>
+                <p>Des milliers de manhwas disponibles en français et en anglais</p>
+                <a href="#manhwas" class="cta-button">Commencer à lire</a>
+            </div>
+        </section>
+
+        <!-- Section des manhwas populaires -->
+        <section id="popular" class="manhwa-section">
+            <h2>Manhwas Populaires</h2>
+            <div class="manhwa-grid">
+                <!-- Carte de manhwa 1 -->
+                <div class="manhwa-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Titre du Manhwa">
+                    <div class="manhwa-info">
+                        <h3>Solo Leveling</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">4.9/5</span>
+                        </div>
+                        <p class="genre">Action, Aventure, Fantaisie</p>
+                        <div class="chapter-lang">
+                            <span class="lang-fr">FR</span>
+                            <span class="lang-en">EN</span>
+                        </div>
+                        <button class="subscribe-btn">S'abonner</button>
+                    </div>
+                </div>
+                
+                <!-- Carte de manhwa 2 -->
+                <div class="manhwa-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Titre du Manhwa">
+                    <div class="manhwa-info">
+                        <h3>Tower of God</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="score">4.7/5</span>
+                        </div>
+                        <p class="genre">Action, Drame, Mystère</p>
+                        <div class="chapter-lang">
+                            <span class="lang-fr">FR</span>
+                            <span class="lang-en">EN</span>
+                        </div>
+                        <button class="subscribe-btn">S'abonner</button>
+                    </div>
+                </div>
+                
+                <!-- Carte de manhwa 3 -->
+                <div class="manhwa-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Titre du Manhwa">
+                    <div class="manhwa-info">
+                        <h3>The Beginning After The End</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">4.8/5</span>
+                        </div>
+                        <p class="genre">Action, Fantaisie, Isekai</p>
+                        <div class="chapter-lang">
+                            <span class="lang-fr">FR</span>
+                            <span class="lang-en">EN</span>
+                        </div>
+                        <button class="subscribe-btn">S'abonner</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section des nouvelles sorties -->
+        <section id="new" class="manhwa-section">
+            <h2>Nouvelles Sorties</h2>
+            <div class="manhwa-grid">
+                <!-- Carte de manhwa 4 -->
+                <div class="manhwa-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Titre du Manhwa">
+                    <div class="manhwa-info">
+                        <h3>Omniscient Reader</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="score">4.6/5</span>
+                        </div>
+                        <p class="genre">Action, Aventure, Fantaisie</p>
+                        <div class="chapter-lang">
+                            <span class="lang-fr">FR</span>
+                            <span class="lang-en">EN</span>
+                        </div>
+                        <button class="subscribe-btn">S'abonner</button>
+                    </div>
+                </div>
+                
+                <!-- Carte de manhwa 5 -->
+                <div class="manhwa-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Titre du Manhwa">
+                    <div class="manhwa-info">
+                        <h3>Legend of the Northern Blade</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">4.9/5</span>
+                        </div>
+                        <p class="genre">Action, Arts Martiaux, Drame</p>
+                        <div class="chapter-lang">
+                            <span class="lang-fr">FR</span>
+                            <span class="lang-en">EN</span>
+                        </div>
+                        <button class="subscribe-btn">S'abonner</button>
+                    </div>
+                </div>
+                
+                <!-- Carte de manhwa 6 -->
+                <div class="manhwa-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Titre du Manhwa">
+                    <div class="manhwa-info">
+                        <h3>Return of the Mount Hua Sect</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="score">4.5/5</span>
+                        </div>
+                        <p class="genre">Action, Arts Martiaux, Comédie</p>
+                        <div class="chapter-lang">
+                            <span class="lang-fr">FR</span>
+                            <span class="lang-en">EN</span>
+                        </div>
+                        <button class="subscribe-btn">S'abonner</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bannière publicitaire intermédiaire -->
+        <div class="ad-banner">
+            <p>Publicité</p>
+            <img src="https://via.placeholder.com/728x90" alt="Publicité">
+        </div>
+
+        <!-- Section de catégories -->
+        <section id="categories" class="categories-section">
+            <h2>Catégories</h2>
+            <div class="category-grid">
+                <a href="#" class="category-card">Action</a>
+                <a href="#" class="category-card">Aventure</a>
+                <a href="#" class="category-card">Fantaisie</a>
+                <a href="#" class="category-card">Romance</a>
+                <a href="#" class="category-card">Drame</a>
+                <a href="#" class="category-card">Comédie</a>
+                <a href="#" class="category-card">Isekai</a>
+                <a href="#" class="category-card">Arts Martiaux</a>
+            </div>
+        </section>
+
+        <!-- Section d'évaluation -->
+        <section class="rating-section">
+            <h2>Évaluez vos manhwas préférés</h2>
+            <div class="rating-form">
+                <select id="manhwa-select">
+                    <option value="">Sélectionnez un manhwa</option>
+                    <option value="solo-leveling">Solo Leveling</option>
+                    <option value="tower-of-god">Tower of God</option>
+                    <option value="tbate">The Beginning After The End</option>
+                </select>
+                <div class="star-rating">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <textarea placeholder="Laissez un commentaire (optionnel)"></textarea>
+                <button class="submit-rating">Soumettre l'évaluation</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Manhwas Amo</h3>
+                <p>Le meilleur site pour lire des manhwas en français et en anglais.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#manhwas">Manhwas</a></li>
+                    <li><a href="#popular">Populaires</a></li>
+                    <li><a href="#new">Nouveautés</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Légal</h3>
+                <ul>
+                    <li><a href="#">Conditions d'utilisation</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="#">DMCA</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: contact@manhwas.amo.io@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Manhwas Amo. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
